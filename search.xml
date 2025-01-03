@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>自訂網域並使用 Hexo 架站</title>
+      <link href="/2025/01/03/%E8%87%AA%E8%A8%82%E7%B6%B2%E5%9F%9F%E4%B8%A6%E4%BD%BF%E7%94%A8-Hexo-%E6%9E%B6%E7%AB%99/"/>
+      <url>/2025/01/03/%E8%87%AA%E8%A8%82%E7%B6%B2%E5%9F%9F%E4%B8%A6%E4%BD%BF%E7%94%A8-Hexo-%E6%9E%B6%E7%AB%99/</url>
+      
+        <content type="html"><![CDATA[<hr><h4 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h4><p>Hexo 是一個快速上手的靜態網站生成器，特別適合用於建立部落格或個人網站。透過 <code>Hexo clean</code>、<code>Hexo generate</code>、<code>Hexo deploy</code> 幾個指令就能將靜態網站部署到 Github Pages上。</p><p>我最喜歡的點是只要有 markdown 撰寫的文章，就可以到 Hexo 社群找到不同風格的框架套用，目前使用的是 Claudia，簡約黑白風。</p><p>不過既然要有自己專屬的部落格就要有自己專屬的網域，以下簡單分享從 bluehost 購買域名後替換到 gituhub Page 的過程 : </p><h4 id="將域名綁定到gitpage上"><a href="#將域名綁定到gitpage上" class="headerlink" title="將域名綁定到gitpage上"></a>將域名綁定到gitpage上</h4><ol><li><p>由於之前已經有在 bluehost 上購買過自己想要的域名了，直接前往bluehost Domain 處做設定。<img src="/images/A.png" alt="A.png"></p></li><li><p>DNS record  用於儲存每個網域名稱對應的相關資訊，這邊透過 CNAME Type將子域名 <code>www.seanmeow.com</code> 指向 <code>seanman888.github.io</code>。TTL設定15分鐘，代表伺服器在 15 分鐘後才會更新該記錄。<img src="/images/B.png" alt="B.png"></p></li><li><p>回到github Settings -&gt; Pages 上將子域名輸入至 Custom domain 中，輸入<code>www.seanmeow.com</code> 即會導向 github page 的畫面<img src="/images/C.png" alt="C.png"></p></li></ol>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+  
+  
+</search>
